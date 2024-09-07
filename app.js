@@ -124,7 +124,7 @@ if(getDataFromLocalStorage != null){
 
 // console.log(arr[0])
 function addToCart(i) {
-    if (cartItems.includes(arr[i].quantity)) {
+    if (cartItems.includes(arr[i])) {
         arr[i].quantity += 1;
     } else {
         arr[i].quantity = 1
